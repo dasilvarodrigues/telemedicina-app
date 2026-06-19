@@ -1,0 +1,52 @@
+name: telemedicina_app
+description: Aplicativo de Telemedicina - Pacientes e Médicos
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP & Networking
+  dio: ^5.4.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # WebRTC / LiveKit
+  livekit_client: ^2.0.0
+  
+  # Local Storage
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.0
+  
+  # Notifications
+  firebase_messaging: ^14.7.10
+  flutter_local_notifications: ^17.0.0
+  
+  # UI
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  
+  # Utils
+  intl: ^0.19.0
+  url_launcher: ^6.2.2
+  open_filex: ^4.4.0
+  image_picker: ^1.0.7
+  permission_handler: ^11.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
